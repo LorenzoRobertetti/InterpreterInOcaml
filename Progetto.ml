@@ -1,7 +1,3 @@
-(* This is an OCaml editor.
-   Enter your program here and send it to the toplevel using the "Eval code"
-   button. *)
-
 type ide = string;;
 type exp = Eint of int | Ebool of bool | Den of ide | Prod of exp * exp | Sum of exp * exp | Diff of exp * exp |
            Eq of exp * exp | Minus of exp | IsZero of exp | Or of exp * exp | And of exp * exp | Not of exp |
